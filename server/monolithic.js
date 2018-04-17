@@ -5,7 +5,7 @@ const querystring = require('querystring');
 
 const members = require('./monolithic_members.js');
 const goods = require('./monolithic_goods.js');
-const purchase = require('./monolithic_purchases.js');
+const purchases = require('./monolithic_purchases.js');
 
 var server = http.createServer((req, res) => {
     var method = req.method;
